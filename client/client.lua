@@ -1,4 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
+local ox_target = exports['ox_target']
 
 
 CreateThread(function()
