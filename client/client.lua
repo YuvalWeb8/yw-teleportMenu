@@ -49,7 +49,7 @@ function updateZones()
                             }
                         }
 
-                        if organization and config.GangTeleport then
+                        if organization and Config.GangTeleport then
                             table.insert(options, {
                                 title = ('Gang: %s'):format(organization),
                                 description = 'Teleport to your gang neighborhood',
