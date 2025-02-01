@@ -1,14 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local ox_target = exports['ox_target']
 
-
-CreateThread(function()
-    while true do
-        Wait(1000) 
-        updateZones()
-    end
-end)
-
 function teleportPlayer(coords, message)
     local player = PlayerPedId()
     if player then
@@ -94,3 +86,5 @@ function updateZones()
         })
     end
 end
+
+updateZones()
